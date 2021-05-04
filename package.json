@@ -1,13 +1,14 @@
 {
   "name": "route53-ipv4-pusher",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/CasheeeewNuts/route53-ipv4-pusher.git",
   "author": "CasheeeewNuts <casheeeewnuts+tech@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "forever": "^3.0.4",
     "node-cron": "^3.0.0"
   },
   "devDependencies": {
